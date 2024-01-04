@@ -6,7 +6,7 @@
     $typec=$_SESSION['compte'];
     
 ?>
-<main class="container-fluid m-0">
+<main class="m-0">
     <!-- je saute une ligne au dessus pour bien afficher le contenu -->
     <div class="row">
         <div class="my-sm-3">
@@ -19,7 +19,7 @@
     </div>
     
     <!-- le contenu -->
-    <div class="container bg-body m-md-0">
+    <div class="row bg-body m-md-0">
         <div class="row">
         <h1 class="text-center fs-1 fw-bold">Réponses aux questions frequement posée</h1>
         <?php    if (isset($_GET['message'])) {
